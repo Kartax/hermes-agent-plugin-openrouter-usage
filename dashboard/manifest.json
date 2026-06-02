@@ -1,0 +1,13 @@
+{
+  "name": "openrouter-usage",
+  "label": "OpenRouter Usage",
+  "description": "OpenRouter usage and activity — requests, tokens, costs with selectable time periods",
+  "icon": "BarChart3",
+  "version": "1.0.0",
+  "tab": {
+    "path": "/openrouter-usage",
+    "position": "after:analytics"
+  },
+  "entry": "dist/index.js",
+  "api": "plugin_api.py"
+}

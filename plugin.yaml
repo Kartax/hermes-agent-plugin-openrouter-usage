@@ -1,0 +1,16 @@
+name: openrouter-usage
+version: 1.0.0
+description: OpenRouter usage dashboard — available credits, daily spend, and activity log with requests, tokens, and costs over the last 7 days.
+author: Philipp (Kartax) (https://github.com/Kartax)
+provides_tools:
+  - openrouter_usage
+provides_dashboard: true
+requires_env:
+  - name: OPENROUTER_API_KEY
+    description: "OpenRouter API key for fetching usage data"
+    url: "https://openrouter.ai/keys"
+    secret: true
+  - name: OPENROUTER_MANAGEMENT_API_KEY
+    description: "OpenRouter Management Key for activity log (requests, tokens, models)"
+    url: "https://openrouter.ai/keys"
+    secret: true
