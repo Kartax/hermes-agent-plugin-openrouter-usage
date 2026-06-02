@@ -61,27 +61,6 @@ Once installed and the management key is configured:
 
 ![Dashboard Preview](https://img.shields.io/badge/dashboard-BarChart3-green)
 
-## Data & Privacy
-
-This plugin fetches data **only** from OpenRouter's public API endpoints:
-
-- `GET /api/v1/key` — key label and usage totals
-- `GET /api/v1/credits` — purchased/used credit balance
-- `GET /api/v1/activity` — aggregated request logs (requires Management Key)
-
-No data is sent to any third party. All API calls go directly to `api.openrouter.ai`.
-
-## Development
-
-```bash
-# Clone for development
-git clone https://github.com/Kartax/hermes-agent-plugin-openrouter-usage.git
-cd hermes-agent-plugin-openrouter-usage
-
-# Symlink to Hermes plugins
-ln -s "$(pwd)" ~/.hermes/plugins/openrouter-usage
-```
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
