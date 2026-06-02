@@ -12,6 +12,9 @@ A Hermes Agent plugin that shows your **OpenRouter usage and activity** — avai
 - **Management Key support** — unlocks per-request activity logs with model-level breakdown
 - **No external dependencies** — uses only Python stdlib (`urllib`)
 
+<img width="1320" height="796" alt="image" src="https://github.com/user-attachments/assets/75f8d6ec-e660-427f-bdb9-9909efd4c806" />
+
+
 ## Requirements
 
 - [Hermes Agent](https://hermes-agent.nousresearch.com) (v1.x or later)
