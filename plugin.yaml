@@ -1,5 +1,5 @@
 name: openrouter-usage
-version: 1.0.0
+version: 1.0.1
 description: OpenRouter usage dashboard — available credits, daily spend, and activity log with requests, tokens, and costs over the last 7 days.
 author: Philipp (Kartax) (https://github.com/Kartax)
 provides_tools:
